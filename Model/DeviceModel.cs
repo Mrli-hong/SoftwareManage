@@ -14,7 +14,7 @@ namespace SoftwareManage.Model
         public string DeviceName { get; set; }
 
         //检测设备是否报警
-        public bool IsWarning { get; set; } = false;
+        public bool IsWarning { get; set; } = false;撒大苏打
 
         //动态列表显示设备参数信息
         public ObservableCollection<MonitorValueModel> MonitorValueList { get; set; } = new 
